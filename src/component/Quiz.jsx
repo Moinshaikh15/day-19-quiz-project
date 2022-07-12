@@ -62,6 +62,8 @@ function Quiz() {
         }
     ]
 
+  
+
     function update(i, activeState) {
         setSelectedOption(i);
         setActive(activeState);
@@ -78,6 +80,7 @@ function Quiz() {
             if (elem.flag)
                 obj[questionsArr[no].que]['corrAns'] = elem.option;
         })
+
 
 
         if (no === questionsArr.length - 1) {
