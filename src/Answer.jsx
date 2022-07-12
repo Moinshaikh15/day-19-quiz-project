@@ -27,7 +27,7 @@ function Answer() {
                             < tr >
                                 <td >{object[key].qn}</td>
                                 <td>{key}</td>
-                                <td style={{ backgroundColor: object[key].flag == true ? '#8ac926' : '#d62828' }}>{object[key].option}</td>
+                                <td style={{ backgroundColor: object[key].flag === true ? '#8ac926' : '#d62828' }}>{object[key].option}</td>
                                 <td>{object[key].corrAns}</td>
                             </tr>
 

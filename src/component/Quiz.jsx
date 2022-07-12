@@ -62,7 +62,7 @@ function Quiz() {
         }
     ]
 
-  
+
 
     function update(i, activeState) {
         setSelectedOption(i);
@@ -79,6 +79,7 @@ function Quiz() {
         questionsArr[no].options.map((elem) => {
             if (elem.flag)
                 obj[questionsArr[no].que]['corrAns'] = elem.option;
+            return elem
         })
 
 
